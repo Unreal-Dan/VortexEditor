@@ -87,15 +87,6 @@
     <ClCompile Include="VortexEngine\VortexEngine\src\Modes\Modes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\Sequencer\ChaserPattern.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\Sequencer\Sequence.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\Sequencer\SequencedPattern.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\BackStrobePattern.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -126,15 +117,6 @@
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\HueShiftPattern.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\HybridPattern.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\ImpactPattern.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\JestPattern.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\LighthousePattern.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -150,9 +132,6 @@
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\PulsishPattern.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\RabbitPattern.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\SnowballPattern.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -163,9 +142,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\TheaterChasePattern.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\TipTopPattern.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\VortexWipePattern.cpp">
@@ -264,6 +240,15 @@
     <ClCompile Include="VortexEngine\VortexEngine\src\Menus\MenuList\EditorConnection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="VortexEngine\VortexEngine\src\Modes\ModePreset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VortexEngine\VortexEngine\src\Modes\ModePresets\JestMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VortexEngine\VortexEngine\src\Modes\ModePresets\ImpactMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VortexEditor.h">
@@ -341,15 +326,6 @@
     <ClInclude Include="VortexEngine\VortexEngine\src\Modes\Modes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\Sequencer\ChaserPattern.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\Sequencer\Sequence.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\Sequencer\SequencedPattern.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\BackStrobePattern.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -380,15 +356,6 @@
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\HueShiftPattern.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\HybridPattern.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\ImpactPattern.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\JestPattern.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\LighthousePattern.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -404,9 +371,6 @@
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\PulsishPattern.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\RabbitPattern.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\SnowballPattern.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -417,9 +381,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\TheaterChasePattern.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\TipTopPattern.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\VortexWipePattern.h">
@@ -534,6 +495,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VortexEngine\VortexEngine\src\Menus\MenuList\EditorConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VortexEngine\VortexEngine\src\Modes\ModePreset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VortexEngine\VortexEngine\src\Modes\ModePresets\JestMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VortexEngine\VortexEngine\src\Modes\ModePresets\ImpactMode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
