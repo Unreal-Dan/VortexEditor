@@ -87,9 +87,6 @@
     <ClCompile Include="VortexEngine\VortexEngine\src\Modes\Modes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\BackStrobePattern.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\BlinkStepPattern.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -324,9 +321,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VortexEngine\VortexEngine\src\Modes\Modes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\BackStrobePattern.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\BlinkStepPattern.h">

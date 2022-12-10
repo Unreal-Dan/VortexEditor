@@ -177,7 +177,6 @@
     <ClCompile Include="VortexEngine\VortexEngine\src\Modes\ModePresets\ImpactMode.cpp" />
     <ClCompile Include="VortexEngine\VortexEngine\src\Modes\ModePresets\JestMode.cpp" />
     <ClCompile Include="VortexEngine\VortexEngine\src\Modes\Modes.cpp" />
-    <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\BackStrobePattern.cpp" />
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\BlinkStepPattern.cpp" />
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\BouncePattern.cpp" />
     <ClCompile Include="VortexEngine\VortexEngine\src\Patterns\Multi\CrossDopsPattern.cpp" />
@@ -262,7 +261,6 @@
     <ClInclude Include="VortexEngine\VortexEngine\src\Modes\ModePresets\ImpactMode.h" />
     <ClInclude Include="VortexEngine\VortexEngine\src\Modes\ModePresets\JestMode.h" />
     <ClInclude Include="VortexEngine\VortexEngine\src\Modes\Modes.h" />
-    <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\BackStrobePattern.h" />
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\BlinkStepPattern.h" />
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\BouncePattern.h" />
     <ClInclude Include="VortexEngine\VortexEngine\src\Patterns\Multi\CrossDopsPattern.h" />
