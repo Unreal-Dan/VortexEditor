@@ -151,6 +151,8 @@
     <ClCompile Include="EngineDependencies\FlashStorage.cpp" />
     <ClCompile Include="EngineWrapper.cpp" />
     <ClCompile Include="GUI\VButton.cpp" />
+    <ClCompile Include="GUI\VChildWindow.cpp" />
+    <ClCompile Include="GUI\VColorRing.cpp" />
     <ClCompile Include="GUI\VColorSelect.cpp" />
     <ClCompile Include="GUI\VComboBox.cpp" />
     <ClCompile Include="GUI\VLabel.cpp" />
@@ -243,6 +245,8 @@
     <ClInclude Include="EngineDependencies\FlashStorage.h" />
     <ClInclude Include="EngineWrapper.h" />
     <ClInclude Include="GUI\VButton.h" />
+    <ClInclude Include="GUI\VChildWindow.h" />
+    <ClInclude Include="GUI\VColorRing.h" />
     <ClInclude Include="GUI\VColorSelect.h" />
     <ClInclude Include="GUI\VComboBox.h" />
     <ClInclude Include="GUI\VLabel.h" />

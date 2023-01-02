@@ -5,6 +5,9 @@
 #include <map>
 #include <string>
 
+// The window class
+#define WC_VWINDOW      "VWINDOW"
+
 // The VWindow is the main window, there's only really supposed to be one
 // if you want child windows that is a separate class. This is also the base
 // class of all other GUI objects
@@ -59,10 +62,6 @@ public:
   HMENU menu() const { return GetMenu(m_hwnd); }
 
 protected:
-  static LRESULT CALLBACK window_proc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
-  static void registerWindowClass(HINSTANCE hInstance, COLORREF backcol);
-  static WNDCLASS m_wc;
-
   // window handle
   HWND m_hwnd;
   // tooltip handle
@@ -83,5 +82,10 @@ protected:
   // device callback
   HDEVNOTIFY m_hDeviceNotify;
   VDeviceCallback m_deviceCallback;
+
+private:
+  static LRESULT CALLBACK window_proc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+  static void registerWindowClass(HINSTANCE hInstance, COLORREF backcol);
+  static WNDCLASS m_wc;
 };
 

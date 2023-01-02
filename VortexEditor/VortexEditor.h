@@ -10,6 +10,8 @@
 // gui includes
 #include "GUI/VMultiListBox.h"
 #include "GUI/VColorSelect.h"
+#include "GUI/VChildwindow.h"
+#include "GUI/VColorRing.h"
 #include "GUI/VComboBox.h"
 #include "GUI/VListBox.h"
 #include "GUI/VTextBox.h"
@@ -211,6 +213,15 @@ private:
   VTextBox m_paramTextBoxes[8];
   // apply to all button
   VButton m_applyToAllButton;
+
+  // ==================================
+  //  Color picker GUI
+
+  // child window for color picker tool
+  VChildWindow m_colorPickerWindow;
+
+  // color ring for the color picker
+  VColorRing m_colorRing;
 };
 
 extern VortexEditor *g_pEditor;

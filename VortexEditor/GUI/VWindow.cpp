@@ -19,11 +19,9 @@ WNDCLASS VWindow::m_wc = {0};
 GUID WceusbshGUID = { 0x25dbce51, 0x6c8f, 0x4a72,
                     0x8a,0x6d,0xb5,0x4c,0x2b,0x4f,0xc8,0x35 };
 
-// The window class
-#define VWINDOW      "VWINDOW"
-
 VWindow::VWindow() :
   m_hwnd(nullptr),
+  m_tooltipHwnd(nullptr),
   m_children(),
   m_pParent(nullptr),
   m_callbackArg(nullptr),
@@ -60,7 +58,7 @@ void VWindow::init(HINSTANCE hInstance, const string &title,
   GetClientRect(GetDesktopWindow(), &desktop);
 
   // create the window
-  m_hwnd = CreateWindow(VWINDOW, title.c_str(),
+  m_hwnd = CreateWindow(WC_VWINDOW, title.c_str(),
     WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX | WS_VISIBLE,
     (desktop.right / 2) - (width / 2), (desktop.bottom / 2) - (height / 2),
     width, height, nullptr, nullptr, hInstance, nullptr);
@@ -276,7 +274,7 @@ void VWindow::registerWindowClass(HINSTANCE hInstance, COLORREF backcol)
   // class registration
   m_wc.lpfnWndProc = VWindow::window_proc;
   m_wc.hInstance = hInstance;
-  m_wc.lpszClassName = VWINDOW;
+  m_wc.lpszClassName = WC_VWINDOW;
   m_wc.hbrBackground = CreateSolidBrush(backcol);
   m_wc.lpszMenuName = MAKEINTRESOURCE(IDR_MENU1);
   RegisterClass(&m_wc);
